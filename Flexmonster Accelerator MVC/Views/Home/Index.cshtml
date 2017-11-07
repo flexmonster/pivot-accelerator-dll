@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "Home";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <h2>Flexmonster Pivot Table Component</h2>
+
+    <!-- 1. Create a DIV container to insert the component -->
+    <div id="pivot-container" />
+
+    <!-- 2. Include flexmonster.js file -->
+    <script src="https://cdn.flexmonster.com/2.4/flexmonster.js"></script>
+
+    <!-- 3. Embed the component using flexmonster.embedPivotComponent() -->
+    <script type="text/javascript">
+        new Flexmonster({
+            container: "#pivot-container",
+            componentFolder: "https://cdn.flexmonster.com/2.4/",
+            height: 600,
+            toolbar: true,
+            report: {
+                dataSource: {
+                    dataSourceType: "microsoft analysis services",
+                    proxyUrl: "/api/accelerator/",
+                    catalog: "Adventure Works DW Standard Edition",
+                    cube: "Adventure Works",
+                    binary: true,
+                },
+                slice: {
+                    rows: [
+                        { uniqueName: "[Product].[Category]" }
+                    ],
+                    columns: [
+                        { uniqueName: "[Measures]" }
+                    ],
+                    pages: [
+                        { uniqueName: "[Product].[Color]", "dimensionName": "[Product]", "caption": "Color", "filterEnabled": true, "sortName": "asc", "sortAs": null, "type": 8, "filter": null, "customSorting": [] }
+                    ],
+                    measures: [
+                        { uniqueName: "[Measures].[Customer Count]" },
+                        { uniqueName: "[Measures].[Reseller Average Sales Amount]" }
+                    ]
+                }
+            }
+        });
+    </script>
+</body>
+</html>
+

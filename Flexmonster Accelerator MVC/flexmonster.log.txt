@@ -1,0 +1,724 @@
+2016-05-13 13:28:06.2386 | TRACE | Handshaking...
+2016-05-13 13:28:06.5323 | TRACE | Loading dimensions...
+2016-05-13 13:28:06.5628 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:28:06.8545 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:28:06.9396 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:28:06.9396 | TRACE | CACHE: Memory - 38063564 / 0
+2016-05-13 13:28:06.9396 | TRACE | CACHE: Items is cache: 1
+2016-05-13 13:28:06.9521 | TRACE | Dimensions: 22 loaded [98 ms]
+2016-05-13 13:28:07.0146 | TRACE | Loading hierarchies...
+2016-05-13 13:28:07.0146 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:28:07.1206 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:28:07.1236 | TRACE | CACHE: Memory - 40124160 / 0
+2016-05-13 13:28:07.1236 | TRACE | CACHE: Items is cache: 2
+2016-05-13 13:28:07.1236 | TRACE | Hierarchies: 172 loaded [109 ms]
+2016-05-13 13:28:07.2067 | TRACE | Loading levels...
+2016-05-13 13:28:07.2322 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:28:07.4128 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:28:07.4128 | TRACE | CACHE: Memory - 43294936 / 0
+2016-05-13 13:28:07.4228 | TRACE | CACHE: Items is cache: 3
+2016-05-13 13:28:07.4228 | TRACE | Levels: 406 loaded [197 ms]
+2016-05-13 13:28:07.4839 | TRACE | Loading measures...
+2016-05-13 13:28:07.4839 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:28:07.5669 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:28:07.5669 | TRACE | CACHE: Memory - 45192132 / 0
+2016-05-13 13:28:07.5754 | TRACE | CACHE: Items is cache: 4
+2016-05-13 13:28:07.5754 | TRACE | Measures: 51 loaded [93 ms]
+2016-05-13 13:28:07.6420 | TRACE | Loading KPIs...
+2016-05-13 13:28:07.6420 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:28:07.7501 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:28:07.7501 | TRACE | CACHE: Memory - 46702568 / 0
+2016-05-13 13:28:07.7501 | TRACE | CACHE: Items is cache: 5
+2016-05-13 13:28:07.7656 | TRACE | KPIs: 12 loaded [118 ms]
+2016-05-13 13:28:07.8287 | TRACE | Loading members...[Product].[Category] - 0
+2016-05-13 13:28:07.8287 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:28:07.8865 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:28:07.8970 | TRACE | Counting members ... [Product].[Category] - True
+2016-05-13 13:28:07.8970 | TRACE | Hierarachy: [Product].[Category]
+2016-05-13 13:28:07.9046 | TRACE | Search phrase: 
+2016-05-13 13:28:07.9046 | TRACE | Member: 
+2016-05-13 13:28:07.9046 | TRACE | with member [Measures].[CountAllMembers] as Count([Product].[Category].allmembers) select NON EMPTY {[Measures].[CountAllMembers]} ON columns FROM [Adventure Works]
+2016-05-13 13:28:07.9811 | TRACE | Count members of [Product].[Category]: 5 [80 ms]
+2016-05-13 13:28:07.9881 | TRACE | SELECT {} on 0, DISTINCT({[Product].[Category].allmembers}) DIMENSION PROPERTIES PARENT_UNIQUE_NAME, LEVEL_UNIQUE_NAME  on 1 FROM [Adventure Works]
+2016-05-13 13:28:08.0426 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverMembersArgs
+2016-05-13 13:28:08.0521 | TRACE | CACHE: Memory - 50757536 / 0
+2016-05-13 13:28:08.0521 | TRACE | CACHE: Items is cache: 6
+2016-05-13 13:28:08.0671 | TRACE | Members of [Product].[Category]: 5 loaded [181 ms]
+2016-05-13 13:28:08.1437 | TRACE | Loading members...[Product].[Color] - 0
+2016-05-13 13:28:08.1437 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:28:08.2553 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:28:08.3203 | TRACE | Counting members ... [Product].[Color] - True
+2016-05-13 13:28:08.3268 | TRACE | Hierarachy: [Product].[Color]
+2016-05-13 13:28:08.3428 | TRACE | Search phrase: 
+2016-05-13 13:28:08.3428 | TRACE | Member: 
+2016-05-13 13:28:08.3573 | TRACE | with member [Measures].[CountAllMembers] as Count([Product].[Color].allmembers) select NON EMPTY {[Measures].[CountAllMembers]} ON columns FROM [Adventure Works]
+2016-05-13 13:28:08.3573 | TRACE | Count members of [Product].[Color]: 11 [44 ms]
+2016-05-13 13:28:08.3753 | TRACE | SELECT {} on 0, DISTINCT({[Product].[Color].allmembers}) DIMENSION PROPERTIES PARENT_UNIQUE_NAME, LEVEL_UNIQUE_NAME  on 1 FROM [Adventure Works]
+2016-05-13 13:28:08.3926 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverMembersArgs
+2016-05-13 13:28:08.3926 | TRACE | CACHE: Memory - 54758368 / 0
+2016-05-13 13:28:08.3926 | TRACE | CACHE: Items is cache: 7
+2016-05-13 13:28:08.4056 | TRACE | Members of [Product].[Color]: 11 loaded [150 ms]
+2016-05-13 13:28:08.4566 | TRACE | Execute
+2016-05-13 13:28:08.4566 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:28:08.5192 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:28:08.5322 | TRACE | Counting rows ...
+2016-05-13 13:28:08.5322 | TRACE | with member [Measures].[CountMembers] as Count(Hierarchize({DrilldownLevel({[Product].[Category].[All Products]})})) Select NON EMPTY {[Measures].[CountMembers]} ON COLUMNS  FROM [Adventure Works] where ([Product].[Color].[All Products]) CELL PROPERTIES VALUE
+2016-05-13 13:28:08.5512 | TRACE | Total rows: 5 [14 ms]
+2016-05-13 13:28:08.5512 | TRACE | chunk: 0
+2016-05-13 13:28:08.5647 | TRACE | query:  Select NON EMPTY {[Measures].[Customer Count], [Measures].[Reseller Average Sales Amount]} DIMENSION PROPERTIES PARENT_UNIQUE_NAME, HIERARCHY_UNIQUE_NAME, MEMBER_TYPE ON COLUMNS , NON EMPTY Subset(Hierarchize({DrilldownLevel({[Product].[Category].[All Products]})}), 0, 100) DIMENSION PROPERTIES PARENT_UNIQUE_NAME, HIERARCHY_UNIQUE_NAME, MEMBER_TYPE ON ROWS FROM [Adventure Works] where ([Product].[Color].[All Products]) CELL PROPERTIES VALUE
+2016-05-13 13:28:09.2416 | TRACE | Execute - set chunk size: 138 100 5
+2016-05-13 13:28:09.2481 | TRACE | Execute - OK! 10 cells [722 ms]
+2016-05-13 13:28:09.2481 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.ExecuteArgs
+2016-05-13 13:28:09.2626 | TRACE | CACHE: Memory - 10630016 / 0
+2016-05-13 13:28:09.2626 | TRACE | CACHE: Items is cache: 8
+2016-05-13 13:28:09.2821 | TRACE | Execute end
+2016-05-13 13:28:09.3116 | TRACE | Execute
+2016-05-13 13:28:09.3321 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:28:09.4325 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:28:09.4480 | TRACE | chunk: 1
+2016-05-13 13:28:09.4590 | TRACE | query:  Select NON EMPTY {[Measures].[Customer Count], [Measures].[Reseller Average Sales Amount]} DIMENSION PROPERTIES PARENT_UNIQUE_NAME, HIERARCHY_UNIQUE_NAME, MEMBER_TYPE ON COLUMNS , NON EMPTY Subset(Hierarchize({DrilldownLevel({[Product].[Category].[All Products]})}), 100, 138) DIMENSION PROPERTIES PARENT_UNIQUE_NAME, HIERARCHY_UNIQUE_NAME, MEMBER_TYPE ON ROWS FROM [Adventure Works] where ([Product].[Color].[All Products]) CELL PROPERTIES VALUE
+2016-05-13 13:28:09.4841 | TRACE | Execute - empty [52 ms] 138
+2016-05-13 13:28:09.5016 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.ExecuteArgs
+2016-05-13 13:28:09.5181 | TRACE | CACHE: Memory - 14516860 / 0
+2016-05-13 13:28:09.5371 | TRACE | CACHE: Items is cache: 9
+2016-05-13 13:28:09.5571 | TRACE | Execute end
+2016-05-13 13:28:18.4798 | TRACE | Handshaking...
+2016-05-13 13:28:18.8734 | TRACE | Loading dimensions...
+2016-05-13 13:28:18.8949 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:28:19.0565 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:28:19.1566 | TRACE | Loading hierarchies...
+2016-05-13 13:28:19.1836 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:28:19.2601 | TRACE | Loading levels...
+2016-05-13 13:28:19.2926 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:28:19.3662 | TRACE | Loading measures...
+2016-05-13 13:28:19.3887 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:28:19.4195 | TRACE | Loading KPIs...
+2016-05-13 13:28:19.4390 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:28:19.4936 | TRACE | Loading members...[Product].[Category] - 0
+2016-05-13 13:28:19.5096 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.DiscoverMembersArgs
+2016-05-13 13:28:19.5341 | TRACE | Loading members...[Product].[Color] - 0
+2016-05-13 13:28:19.5536 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.DiscoverMembersArgs
+2016-05-13 13:28:19.5806 | TRACE | Execute
+2016-05-13 13:28:19.5916 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.ExecuteArgs
+2016-05-13 13:28:19.6230 | TRACE | Execute
+2016-05-13 13:28:19.6410 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.ExecuteArgs
+2016-05-13 13:28:39.9309 | TRACE | Handshaking...
+2016-05-13 13:28:40.4237 | TRACE | Loading dimensions...
+2016-05-13 13:28:40.4523 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:28:40.6179 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:28:40.7450 | TRACE | Loading hierarchies...
+2016-05-13 13:28:40.7835 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:28:40.9236 | TRACE | Loading levels...
+2016-05-13 13:28:40.9666 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:28:41.0231 | TRACE | Loading measures...
+2016-05-13 13:28:41.0532 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:28:41.1002 | TRACE | Loading KPIs...
+2016-05-13 13:28:41.1287 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:28:41.1988 | TRACE | Loading members...[Product].[Category] - 0
+2016-05-13 13:28:41.2243 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.DiscoverMembersArgs
+2016-05-13 13:28:41.2858 | TRACE | Loading members...[Product].[Color] - 0
+2016-05-13 13:28:41.3088 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.DiscoverMembersArgs
+2016-05-13 13:28:41.3594 | TRACE | Execute
+2016-05-13 13:28:41.3924 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.ExecuteArgs
+2016-05-13 13:28:41.4329 | TRACE | Execute
+2016-05-13 13:28:41.4704 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.ExecuteArgs
+2016-05-13 13:30:06.1520 | TRACE | Handshaking...
+2016-05-13 13:30:06.3822 | TRACE | Loading dimensions...
+2016-05-13 13:30:06.4312 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;EffectiveUserName=User;
+2016-05-13 13:30:06.6123 | ERROR | The following system error occurred:  The name provided is not a properly formed account name. 
+   at Microsoft.AnalysisServices.AdomdClient.AdomdConnection.XmlaClientProvider.Connect(Boolean toIXMLA)
+   at Microsoft.AnalysisServices.AdomdClient.AdomdConnection.XmlaClientProvider.Microsoft.AnalysisServices.AdomdClient.AdomdConnection.IXmlaClientProviderEx.ConnectXmla()
+   at Microsoft.AnalysisServices.AdomdClient.AdomdConnection.ConnectToXMLA(Boolean createSession, Boolean isHTTP)
+   at Microsoft.AnalysisServices.AdomdClient.AdomdConnection.Open()
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.GetSessionId(String catalog, String credentials, String cubeUniqueName, String customData, String localeIdentifier, String effectiveUserName)
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.DiscoverDimensions(DiscoverArgs args)
+2016-05-13 13:30:37.0329 | TRACE | Handshaking...
+2016-05-13 13:30:37.3531 | TRACE | Loading dimensions...
+2016-05-13 13:30:37.3971 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;EffectiveUserName=webuser;
+2016-05-13 13:30:37.5683 | ERROR | The following system error occurred:  The name provided is not a properly formed account name. 
+   at Microsoft.AnalysisServices.AdomdClient.AdomdConnection.XmlaClientProvider.Connect(Boolean toIXMLA)
+   at Microsoft.AnalysisServices.AdomdClient.AdomdConnection.XmlaClientProvider.Microsoft.AnalysisServices.AdomdClient.AdomdConnection.IXmlaClientProviderEx.ConnectXmla()
+   at Microsoft.AnalysisServices.AdomdClient.AdomdConnection.ConnectToXMLA(Boolean createSession, Boolean isHTTP)
+   at Microsoft.AnalysisServices.AdomdClient.AdomdConnection.Open()
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.GetSessionId(String catalog, String credentials, String cubeUniqueName, String customData, String localeIdentifier, String effectiveUserName)
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.DiscoverDimensions(DiscoverArgs args)
+2016-05-13 13:32:31.5303 | TRACE | Handshaking...
+2016-05-13 13:32:31.7960 | TRACE | Loading dimensions...
+2016-05-13 13:32:31.8335 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;EffectiveUserName=FM-IAN\webuser;
+2016-05-13 13:32:31.9186 | ERROR | The following system error occurred:  There are currently no logon servers available to service the logon request. 
+   at Microsoft.AnalysisServices.AdomdClient.AdomdConnection.XmlaClientProvider.Connect(Boolean toIXMLA)
+   at Microsoft.AnalysisServices.AdomdClient.AdomdConnection.XmlaClientProvider.Microsoft.AnalysisServices.AdomdClient.AdomdConnection.IXmlaClientProviderEx.ConnectXmla()
+   at Microsoft.AnalysisServices.AdomdClient.AdomdConnection.ConnectToXMLA(Boolean createSession, Boolean isHTTP)
+   at Microsoft.AnalysisServices.AdomdClient.AdomdConnection.Open()
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.GetSessionId(String catalog, String credentials, String cubeUniqueName, String customData, String localeIdentifier, String effectiveUserName)
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.DiscoverDimensions(DiscoverArgs args)
+2016-05-13 13:33:57.6949 | TRACE | Handshaking...
+2016-05-13 13:33:57.9161 | TRACE | Loading dimensions...
+2016-05-13 13:33:57.9511 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:34:01.0184 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:34:04.1111 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:34:04.1111 | TRACE | CACHE: Memory - 41597972 / 0
+2016-05-13 13:34:04.1111 | TRACE | CACHE: Items is cache: 1
+2016-05-13 13:34:04.1266 | TRACE | Dimensions: 22 loaded [3108 ms]
+2016-05-13 13:34:04.1861 | TRACE | Loading hierarchies...
+2016-05-13 13:34:04.1861 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:34:07.7514 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:34:07.7514 | TRACE | CACHE: Memory - 45594296 / 0
+2016-05-13 13:34:07.7514 | TRACE | CACHE: Items is cache: 2
+2016-05-13 13:34:07.7654 | TRACE | Hierarchies: 172 loaded [3573 ms]
+2016-05-13 13:34:07.8189 | TRACE | Loading levels...
+2016-05-13 13:34:07.8275 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:34:11.9223 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:34:11.9223 | TRACE | CACHE: Memory - 4656876 / 0
+2016-05-13 13:34:11.9223 | TRACE | CACHE: Items is cache: 3
+2016-05-13 13:34:11.9368 | TRACE | Levels: 406 loaded [4109 ms]
+2016-05-13 13:34:11.9919 | TRACE | Loading measures...
+2016-05-13 13:34:11.9994 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:34:15.0945 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:34:15.0945 | TRACE | CACHE: Memory - 8298344 / 0
+2016-05-13 13:34:15.1074 | TRACE | CACHE: Items is cache: 4
+2016-05-13 13:34:15.1074 | TRACE | Measures: 51 loaded [3116 ms]
+2016-05-13 13:34:15.1720 | TRACE | Loading KPIs...
+2016-05-13 13:34:15.1720 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:34:18.2818 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:34:18.2818 | TRACE | CACHE: Memory - 11532844 / 0
+2016-05-13 13:34:18.2948 | TRACE | CACHE: Items is cache: 5
+2016-05-13 13:34:18.2948 | TRACE | KPIs: 12 loaded [3120 ms]
+2016-05-13 13:34:18.3749 | TRACE | Loading members...[Product].[Category] - 0
+2016-05-13 13:34:18.3749 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:34:21.0476 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:34:22.3624 | TRACE | Counting members ... [Product].[Category] - True
+2016-05-13 13:34:22.3624 | TRACE | Hierarachy: [Product].[Category]
+2016-05-13 13:34:22.3624 | TRACE | Search phrase: 
+2016-05-13 13:34:22.3784 | TRACE | Member: 
+2016-05-13 13:34:22.3784 | TRACE | with member [Measures].[CountAllMembers] as Count([Product].[Category].allmembers) select NON EMPTY {[Measures].[CountAllMembers]} ON columns FROM [Adventure Works]
+2016-05-13 13:34:22.8158 | TRACE | Count members of [Product].[Category]: 5 [448 ms]
+2016-05-13 13:34:22.8158 | TRACE | SELECT {} on 0, DISTINCT({[Product].[Category].allmembers}) DIMENSION PROPERTIES PARENT_UNIQUE_NAME, LEVEL_UNIQUE_NAME  on 1 FROM [Adventure Works]
+2016-05-13 13:34:23.7038 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverMembersArgs
+2016-05-13 13:34:23.7038 | TRACE | CACHE: Memory - 18471048 / 0
+2016-05-13 13:34:23.7038 | TRACE | CACHE: Items is cache: 6
+2016-05-13 13:34:23.7228 | TRACE | Members of [Product].[Category]: 5 loaded [2675 ms]
+2016-05-13 13:34:23.7604 | TRACE | Loading members...[Product].[Color] - 0
+2016-05-13 13:34:23.7669 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:34:26.4223 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:34:27.7353 | TRACE | Counting members ... [Product].[Color] - True
+2016-05-13 13:34:27.7353 | TRACE | Hierarachy: [Product].[Color]
+2016-05-13 13:34:27.7353 | TRACE | Search phrase: 
+2016-05-13 13:34:27.7478 | TRACE | Member: 
+2016-05-13 13:34:27.7478 | TRACE | with member [Measures].[CountAllMembers] as Count([Product].[Color].allmembers) select NON EMPTY {[Measures].[CountAllMembers]} ON columns FROM [Adventure Works]
+2016-05-13 13:34:28.1917 | TRACE | Count members of [Product].[Color]: 11 [452 ms]
+2016-05-13 13:34:28.1999 | TRACE | SELECT {} on 0, DISTINCT({[Product].[Color].allmembers}) DIMENSION PROPERTIES PARENT_UNIQUE_NAME, LEVEL_UNIQUE_NAME  on 1 FROM [Adventure Works]
+2016-05-13 13:34:29.0947 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverMembersArgs
+2016-05-13 13:34:29.0947 | TRACE | CACHE: Memory - 8059076 / 0
+2016-05-13 13:34:29.0947 | TRACE | CACHE: Items is cache: 7
+2016-05-13 13:34:29.0947 | TRACE | Members of [Product].[Color]: 11 loaded [2683 ms]
+2016-05-13 13:34:29.1658 | TRACE | Execute
+2016-05-13 13:34:29.1713 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:34:31.8444 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:34:33.1574 | TRACE | Counting rows ...
+2016-05-13 13:34:33.1574 | TRACE | with member [Measures].[CountMembers] as Count(Hierarchize({DrilldownLevel({[Product].[Category].[All Products]})})) Select NON EMPTY {[Measures].[CountMembers]} ON COLUMNS  FROM [Adventure Works] where ([Product].[Color].[All Products]) CELL PROPERTIES VALUE
+2016-05-13 13:34:33.5988 | TRACE | Total rows: 5 [437 ms]
+2016-05-13 13:34:33.5988 | TRACE | chunk: 0
+2016-05-13 13:34:33.6113 | TRACE | query:  Select NON EMPTY {[Measures].[Customer Count], [Measures].[Reseller Average Sales Amount]} DIMENSION PROPERTIES PARENT_UNIQUE_NAME, HIERARCHY_UNIQUE_NAME, MEMBER_TYPE ON COLUMNS , NON EMPTY Subset(Hierarchize({DrilldownLevel({[Product].[Category].[All Products]})}), 0, 100) DIMENSION PROPERTIES PARENT_UNIQUE_NAME, HIERARCHY_UNIQUE_NAME, MEMBER_TYPE ON ROWS FROM [Adventure Works] where ([Product].[Color].[All Products]) CELL PROPERTIES VALUE
+2016-05-13 13:34:34.0863 | TRACE | Execute - set chunk size: 44 100 5
+2016-05-13 13:34:34.0968 | TRACE | Execute - OK! 10 cells [2242 ms]
+2016-05-13 13:34:34.5628 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.ExecuteArgs
+2016-05-13 13:34:34.5628 | TRACE | CACHE: Memory - 15014584 / 0
+2016-05-13 13:34:34.5798 | TRACE | CACHE: Items is cache: 8
+2016-05-13 13:34:34.5798 | TRACE | Execute end
+2016-05-13 13:34:34.6149 | TRACE | Execute
+2016-05-13 13:34:34.6394 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:34:37.3128 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:34:38.6411 | TRACE | chunk: 1
+2016-05-13 13:34:38.6626 | TRACE | query:  Select NON EMPTY {[Measures].[Customer Count], [Measures].[Reseller Average Sales Amount]} DIMENSION PROPERTIES PARENT_UNIQUE_NAME, HIERARCHY_UNIQUE_NAME, MEMBER_TYPE ON COLUMNS , NON EMPTY Subset(Hierarchize({DrilldownLevel({[Product].[Category].[All Products]})}), 100, 44) DIMENSION PROPERTIES PARENT_UNIQUE_NAME, HIERARCHY_UNIQUE_NAME, MEMBER_TYPE ON ROWS FROM [Adventure Works] where ([Product].[Color].[All Products]) CELL PROPERTIES VALUE
+2016-05-13 13:34:39.1412 | TRACE | Execute - empty [1828 ms] 44
+2016-05-13 13:34:39.6097 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.ExecuteArgs
+2016-05-13 13:34:39.6237 | TRACE | CACHE: Memory - 9043868 / 0
+2016-05-13 13:34:39.6237 | TRACE | CACHE: Items is cache: 9
+2016-05-13 13:34:39.6452 | TRACE | Execute end
+2016-05-13 13:34:45.8488 | TRACE | Handshaking...
+2016-05-13 13:34:46.1619 | TRACE | Loading dimensions...
+2016-05-13 13:34:46.1794 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:34:48.8442 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:34:48.8807 | TRACE | Loading hierarchies...
+2016-05-13 13:34:48.9047 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:34:48.9553 | TRACE | Loading levels...
+2016-05-13 13:34:48.9883 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:34:49.0407 | TRACE | Loading measures...
+2016-05-13 13:34:49.0718 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:34:49.1213 | TRACE | Loading KPIs...
+2016-05-13 13:34:49.1468 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:34:49.2199 | TRACE | Loading members...[Product].[Category] - 0
+2016-05-13 13:34:49.2449 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.DiscoverMembersArgs
+2016-05-13 13:34:49.2899 | TRACE | Loading members...[Product].[Color] - 0
+2016-05-13 13:34:49.3139 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.DiscoverMembersArgs
+2016-05-13 13:34:49.3700 | TRACE | Execute
+2016-05-13 13:34:49.3905 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.ExecuteArgs
+2016-05-13 13:34:49.4400 | TRACE | Execute
+2016-05-13 13:34:49.4695 | TRACE | CACHE: Get - Flexmonster.Accelerator.Models.ExecuteArgs
+2016-05-13 13:49:05.8554 | TRACE | Handshaking...
+2016-05-13 13:49:06.0335 | TRACE | Loading dimensions...
+2016-05-13 13:49:06.0756 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:49:08.9918 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:49:12.2109 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:49:12.4896 | TRACE | CACHE: Memory - 5754792 / 0
+2016-05-13 13:49:12.5556 | TRACE | CACHE: Items is cache: 1
+2016-05-13 13:49:12.5907 | TRACE | Dimensions: 22 loaded [3599 ms]
+2016-05-13 13:49:12.7103 | TRACE | Loading hierarchies...
+2016-05-13 13:49:12.7568 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:49:16.4446 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:49:16.4751 | TRACE | CACHE: Memory - 9786128 / 0
+2016-05-13 13:49:16.5071 | TRACE | CACHE: Items is cache: 2
+2016-05-13 13:49:16.5431 | TRACE | Hierarchies: 172 loaded [3786 ms]
+2016-05-13 13:49:16.6572 | TRACE | Loading levels...
+2016-05-13 13:49:16.6807 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:49:20.8325 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:49:20.8756 | TRACE | CACHE: Memory - 5083104 / 0
+2016-05-13 13:49:20.8956 | TRACE | CACHE: Items is cache: 3
+2016-05-13 13:49:20.9176 | TRACE | Levels: 406 loaded [4237 ms]
+2016-05-13 13:49:21.0677 | TRACE | Loading measures...
+2016-05-13 13:49:21.1087 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:49:24.3377 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:49:24.3547 | TRACE | CACHE: Memory - 8727132 / 0
+2016-05-13 13:49:24.3742 | TRACE | CACHE: Items is cache: 4
+2016-05-13 13:49:24.3907 | TRACE | Measures: 51 loaded [3282 ms]
+2016-05-13 13:49:24.4648 | TRACE | Loading KPIs...
+2016-05-13 13:49:24.4803 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:49:27.6264 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:49:27.6519 | TRACE | CACHE: Memory - 11971092 / 0
+2016-05-13 13:49:27.6714 | TRACE | CACHE: Items is cache: 5
+2016-05-13 13:49:27.6970 | TRACE | KPIs: 12 loaded [3217 ms]
+2016-05-13 13:49:27.8996 | TRACE | Loading members...[Product].[Category] - 0
+2016-05-13 13:49:27.9251 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:49:30.6167 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:49:31.9462 | TRACE | Counting members ... [Product].[Category] - True
+2016-05-13 13:49:31.9672 | TRACE | Hierarachy: [Product].[Category]
+2016-05-13 13:49:31.9817 | TRACE | Search phrase: 
+2016-05-13 13:49:31.9992 | TRACE | Member: 
+2016-05-13 13:49:31.9992 | TRACE | with member [Measures].[CountAllMembers] as Count([Product].[Category].allmembers) select NON EMPTY {[Measures].[CountAllMembers]} ON columns FROM [Adventure Works]
+2016-05-13 13:49:32.4626 | TRACE | Count members of [Product].[Category]: 5 [495 ms]
+2016-05-13 13:49:32.4886 | TRACE | SELECT {} on 0, DISTINCT({[Product].[Category].allmembers}) DIMENSION PROPERTIES PARENT_UNIQUE_NAME, LEVEL_UNIQUE_NAME  on 1 FROM [Adventure Works]
+2016-05-13 13:49:33.4127 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverMembersArgs
+2016-05-13 13:49:33.4197 | TRACE | CACHE: Memory - 8418732 / 0
+2016-05-13 13:49:33.4197 | TRACE | CACHE: Items is cache: 6
+2016-05-13 13:49:33.4197 | TRACE | Members of [Product].[Category]: 5 loaded [2815 ms]
+2016-05-13 13:49:33.4998 | TRACE | Loading members...[Product].[Color] - 0
+2016-05-13 13:49:33.4998 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:49:36.1803 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:49:37.5222 | TRACE | Counting members ... [Product].[Color] - True
+2016-05-13 13:49:37.5307 | TRACE | Hierarachy: [Product].[Color]
+2016-05-13 13:49:37.5497 | TRACE | Search phrase: 
+2016-05-13 13:49:37.5612 | TRACE | Member: 
+2016-05-13 13:49:37.5612 | TRACE | with member [Measures].[CountAllMembers] as Count([Product].[Color].allmembers) select NON EMPTY {[Measures].[CountAllMembers]} ON columns FROM [Adventure Works]
+2016-05-13 13:49:38.0251 | TRACE | Count members of [Product].[Color]: 11 [494 ms]
+2016-05-13 13:49:38.0331 | TRACE | SELECT {} on 0, DISTINCT({[Product].[Color].allmembers}) DIMENSION PROPERTIES PARENT_UNIQUE_NAME, LEVEL_UNIQUE_NAME  on 1 FROM [Adventure Works]
+2016-05-13 13:49:38.9445 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverMembersArgs
+2016-05-13 13:49:38.9510 | TRACE | CACHE: Memory - 3950740 / 0
+2016-05-13 13:49:38.9965 | TRACE | CACHE: Items is cache: 7
+2016-05-13 13:49:39.0060 | TRACE | Members of [Product].[Color]: 11 loaded [2826 ms]
+2016-05-13 13:49:41.1419 | TRACE | Execute
+2016-05-13 13:49:41.1835 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:49:43.9879 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:49:45.3168 | TRACE | Counting rows ...
+2016-05-13 13:49:45.3168 | TRACE | with member [Measures].[CountMembers] as Count(Hierarchize({DrilldownLevel({[Product].[Category].[All Products]})})) Select NON EMPTY {[Measures].[CountMembers]} ON COLUMNS  FROM [Adventure Works] where ([Product].[Color].[All Products]) CELL PROPERTIES VALUE
+2016-05-13 13:49:45.7712 | TRACE | Total rows: 5 [447 ms]
+2016-05-13 13:49:45.7712 | TRACE | chunk: 0
+2016-05-13 13:49:45.7822 | TRACE | query:  Select NON EMPTY {[Measures].[Customer Count], [Measures].[Reseller Average Sales Amount]} DIMENSION PROPERTIES PARENT_UNIQUE_NAME, HIERARCHY_UNIQUE_NAME, MEMBER_TYPE ON COLUMNS , NON EMPTY Subset(Hierarchize({DrilldownLevel({[Product].[Category].[All Products]})}), 0, 100) DIMENSION PROPERTIES PARENT_UNIQUE_NAME, HIERARCHY_UNIQUE_NAME, MEMBER_TYPE ON ROWS FROM [Adventure Works] where ([Product].[Color].[All Products]) CELL PROPERTIES VALUE
+2016-05-13 13:49:46.6947 | ERROR | The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Flexmonster.Accelerator.Models.DataSetVO.GetRowsList(Axis axis, String[] rows, Dictionary`2 allMembers)
+   at Flexmonster.Accelerator.Models.DataSetVO.FromItem(CellSet input, String[] rows, String[] columns, String[] measures, Dictionary`2 allMembers, Boolean formatted)
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.Execute(ExecuteArgs args)
+2016-05-13 13:49:46.7067 | TRACE | Execute end
+2016-05-13 13:53:59.7606 | TRACE | Handshaking...
+2016-05-13 13:54:00.0042 | TRACE | Loading dimensions...
+2016-05-13 13:54:00.0573 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:54:03.0218 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:54:06.1302 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:54:06.1442 | TRACE | CACHE: Memory - 32028212 / 0
+2016-05-13 13:54:06.1642 | TRACE | CACHE: Items is cache: 1
+2016-05-13 13:54:06.1933 | TRACE | Dimensions: 22 loaded [3171 ms]
+2016-05-13 13:54:06.2728 | TRACE | Loading hierarchies...
+2016-05-13 13:54:06.3018 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:54:09.9264 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:54:09.9434 | TRACE | CACHE: Memory - 6329964 / 0
+2016-05-13 13:54:09.9604 | TRACE | CACHE: Items is cache: 2
+2016-05-13 13:54:09.9744 | TRACE | Hierarchies: 172 loaded [3673 ms]
+2016-05-13 13:54:10.0460 | TRACE | Loading levels...
+2016-05-13 13:54:10.0640 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:54:14.1142 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:54:14.1433 | TRACE | CACHE: Memory - 5238804 / 0
+2016-05-13 13:54:14.1733 | TRACE | CACHE: Items is cache: 3
+2016-05-13 13:54:14.1998 | TRACE | Levels: 406 loaded [4136 ms]
+2016-05-13 13:54:14.3224 | TRACE | Loading measures...
+2016-05-13 13:54:14.3494 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:54:17.4891 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:54:17.4891 | TRACE | CACHE: Memory - 8850388 / 0
+2016-05-13 13:54:17.5031 | TRACE | CACHE: Items is cache: 4
+2016-05-13 13:54:17.5031 | TRACE | Measures: 51 loaded [3162 ms]
+2016-05-13 13:54:17.5351 | TRACE | Loading KPIs...
+2016-05-13 13:54:17.5481 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:54:20.6454 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2016-05-13 13:54:20.6554 | TRACE | CACHE: Memory - 12122988 / 0
+2016-05-13 13:54:20.6554 | TRACE | CACHE: Items is cache: 5
+2016-05-13 13:54:20.6764 | TRACE | KPIs: 12 loaded [3129 ms]
+2016-05-13 13:54:20.7525 | TRACE | Loading members...[Product].[Category] - 0
+2016-05-13 13:54:20.7645 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:54:23.4411 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:54:24.7824 | TRACE | Counting members ... [Product].[Category] - True
+2016-05-13 13:54:24.7944 | TRACE | Hierarachy: [Product].[Category]
+2016-05-13 13:54:24.7944 | TRACE | Search phrase: 
+2016-05-13 13:54:24.8214 | TRACE | Member: 
+2016-05-13 13:54:24.8354 | TRACE | with member [Measures].[CountAllMembers] as Count([Product].[Category].allmembers) select NON EMPTY {[Measures].[CountAllMembers]} ON columns FROM [Adventure Works]
+2016-05-13 13:54:25.2892 | TRACE | Count members of [Product].[Category]: 5 [496 ms]
+2016-05-13 13:54:25.2992 | TRACE | SELECT {} on 0, DISTINCT({[Product].[Category].allmembers}) DIMENSION PROPERTIES PARENT_UNIQUE_NAME, LEVEL_UNIQUE_NAME  on 1 FROM [Adventure Works]
+2016-05-13 13:54:26.2229 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverMembersArgs
+2016-05-13 13:54:26.2229 | TRACE | CACHE: Memory - 8290436 / 0
+2016-05-13 13:54:26.2364 | TRACE | CACHE: Items is cache: 6
+2016-05-13 13:54:26.2484 | TRACE | Members of [Product].[Category]: 5 loaded [2807 ms]
+2016-05-13 13:54:26.2804 | TRACE | Loading members...[Product].[Color] - 0
+2016-05-13 13:54:26.2804 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:54:28.9568 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:54:30.2702 | TRACE | Counting members ... [Product].[Color] - True
+2016-05-13 13:54:30.2702 | TRACE | Hierarachy: [Product].[Color]
+2016-05-13 13:54:30.2802 | TRACE | Search phrase: 
+2016-05-13 13:54:30.2802 | TRACE | Member: 
+2016-05-13 13:54:30.2952 | TRACE | with member [Measures].[CountAllMembers] as Count([Product].[Color].allmembers) select NON EMPTY {[Measures].[CountAllMembers]} ON columns FROM [Adventure Works]
+2016-05-13 13:54:30.7575 | TRACE | Count members of [Product].[Color]: 11 [482 ms]
+2016-05-13 13:54:30.7625 | TRACE | SELECT {} on 0, DISTINCT({[Product].[Color].allmembers}) DIMENSION PROPERTIES PARENT_UNIQUE_NAME, LEVEL_UNIQUE_NAME  on 1 FROM [Adventure Works]
+2016-05-13 13:54:31.6605 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverMembersArgs
+2016-05-13 13:54:31.6605 | TRACE | CACHE: Memory - 15200084 / 0
+2016-05-13 13:54:31.6605 | TRACE | CACHE: Items is cache: 7
+2016-05-13 13:54:31.6735 | TRACE | Members of [Product].[Color]: 11 loaded [2717 ms]
+2016-05-13 13:54:31.7166 | TRACE | Execute
+2016-05-13 13:54:31.7166 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:54:34.3796 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:54:35.6924 | TRACE | Counting rows ...
+2016-05-13 13:54:35.7024 | TRACE | with member [Measures].[CountMembers] as Count(Hierarchize({DrilldownLevel({[Product].[Category].[All Products]})})) Select NON EMPTY {[Measures].[CountMembers]} ON COLUMNS  FROM [Adventure Works] where ([Product].[Color].[All Products]) CELL PROPERTIES VALUE
+2016-05-13 13:54:36.1645 | TRACE | Total rows: 5 [463 ms]
+2016-05-13 13:54:36.1695 | TRACE | chunk: 0
+2016-05-13 13:54:36.1695 | TRACE | query:  Select NON EMPTY {[Measures].[Customer Count], [Measures].[Reseller Average Sales Amount]} DIMENSION PROPERTIES PARENT_UNIQUE_NAME, HIERARCHY_UNIQUE_NAME, MEMBER_TYPE ON COLUMNS , NON EMPTY Subset(Hierarchize({DrilldownLevel({[Product].[Category].[All Products]})}), 0, 100) DIMENSION PROPERTIES PARENT_UNIQUE_NAME, HIERARCHY_UNIQUE_NAME, MEMBER_TYPE ON ROWS FROM [Adventure Works] where ([Product].[Color].[All Products]) CELL PROPERTIES VALUE
+2016-05-13 13:54:36.6397 | TRACE | Execute - set chunk size: 44 100 5
+2016-05-13 13:54:36.6397 | TRACE | Execute - OK! 10 cells [2260 ms]
+2016-05-13 13:54:37.0976 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.ExecuteArgs
+2016-05-13 13:54:37.1131 | TRACE | CACHE: Memory - 8394376 / 0
+2016-05-13 13:54:37.1256 | TRACE | CACHE: Items is cache: 8
+2016-05-13 13:54:37.1436 | TRACE | Execute end
+2016-05-13 13:54:37.2067 | TRACE | Execute
+2016-05-13 13:54:37.2227 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:54:39.8957 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2016-05-13 13:54:41.2234 | TRACE | chunk: 1
+2016-05-13 13:54:41.2534 | TRACE | query:  Select NON EMPTY {[Measures].[Customer Count], [Measures].[Reseller Average Sales Amount]} DIMENSION PROPERTIES PARENT_UNIQUE_NAME, HIERARCHY_UNIQUE_NAME, MEMBER_TYPE ON COLUMNS , NON EMPTY Subset(Hierarchize({DrilldownLevel({[Product].[Category].[All Products]})}), 100, 44) DIMENSION PROPERTIES PARENT_UNIQUE_NAME, HIERARCHY_UNIQUE_NAME, MEMBER_TYPE ON ROWS FROM [Adventure Works] where ([Product].[Color].[All Products]) CELL PROPERTIES VALUE
+2016-05-13 13:54:41.7404 | TRACE | Execute - empty [1845 ms] 44
+2016-05-13 13:54:42.2158 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.ExecuteArgs
+2016-05-13 13:54:42.2398 | TRACE | CACHE: Memory - 3864568 / 0
+2016-05-13 13:54:42.2608 | TRACE | CACHE: Items is cache: 9
+2016-05-13 13:54:42.2833 | TRACE | Execute end
+2017-07-27 12:10:10.6890 | TRACE | Handshaking...
+2017-07-27 12:10:10.7360 | WARN | Your current version of Data Speed Accelerator is not compatible with Flexmonster Pivot Component.
+
+Please update the Accelerator to the minimum required version: 2.316
+2017-07-27 12:13:05.0205 | TRACE | Handshaking...2.32
+2017-07-27 12:13:05.3377 | TRACE | Loading dimensions...
+2017-07-27 12:13:05.3737 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-07-27 12:13:08.7029 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-07-27 12:13:11.8835 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2017-07-27 12:13:11.9085 | TRACE | CACHE: Memory - 16367388 / 0
+2017-07-27 12:13:11.9305 | TRACE | CACHE: Items in cache: 1
+2017-07-27 12:13:11.9535 | TRACE | Dimensions: 22 loaded [3251 ms]
+2017-07-27 12:13:12.0296 | TRACE | Loading hierarchies...
+2017-07-27 12:13:12.0616 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-07-27 12:13:16.0543 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2017-07-27 12:13:16.0793 | TRACE | CACHE: Memory - 20341016 / 0
+2017-07-27 12:13:16.1043 | TRACE | CACHE: Items in cache: 2
+2017-07-27 12:13:16.1263 | TRACE | Hierarchies: 172 loaded [4065 ms]
+2017-07-27 12:13:16.2124 | TRACE | Loading levels...
+2017-07-27 12:13:16.2414 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-07-27 12:13:27.1636 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2017-07-27 12:13:27.1837 | TRACE | CACHE: Memory - 6594468 / 0
+2017-07-27 12:13:27.2057 | TRACE | CACHE: Items in cache: 3
+2017-07-27 12:13:27.2337 | TRACE | Levels: 406 loaded [10992 ms]
+2017-07-27 12:13:27.3037 | TRACE | Loading measures...
+2017-07-27 12:13:27.3237 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-07-27 12:13:30.4448 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2017-07-27 12:13:30.4688 | TRACE | CACHE: Memory - 10248104 / 0
+2017-07-27 12:13:30.5189 | TRACE | CACHE: Items in cache: 4
+2017-07-27 12:13:30.5409 | TRACE | Measures: 51 loaded [3217 ms]
+2017-07-27 12:13:30.6279 | TRACE | Loading KPIs...
+2017-07-27 12:13:30.6490 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-07-27 12:13:33.7570 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2017-07-27 12:13:33.7740 | TRACE | CACHE: Memory - 13361588 / 0
+2017-07-27 12:13:33.7900 | TRACE | CACHE: Items in cache: 5
+2017-07-27 12:13:33.8061 | TRACE | KPIs: 12 loaded [3157 ms]
+2017-07-27 12:13:33.8721 | TRACE | Loading members...[Product].[Category] - 0
+2017-07-27 12:13:33.8841 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-07-27 12:13:36.5699 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-07-27 12:13:38.8074 | TRACE | Counting members ... [Product].[Category] - True
+2017-07-27 12:13:38.8234 | TRACE | Hierarachy: [Product].[Category]
+2017-07-27 12:13:38.8354 | TRACE | Search phrase: 
+2017-07-27 12:13:38.8524 | TRACE | Member: 
+2017-07-27 12:13:38.8524 | TRACE | with member [Measures].[CountAllMembers] as Count([Product].[Category].allmembers) select NON EMPTY {[Measures].[CountAllMembers]} ON columns FROM [Adventure Works]
+2017-07-27 12:13:39.3788 | TRACE | Count members of [Product].[Category]: 5 [556 ms]
+2017-07-27 12:13:39.3788 | TRACE | SELECT {} on 0, DISTINCT({[Product].[Category].allmembers}) DIMENSION PROPERTIES PARENT_UNIQUE_NAME, LEVEL_UNIQUE_NAME  on 1 FROM [Adventure Works]
+2017-07-27 12:13:40.5542 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverMembersArgs
+2017-07-27 12:13:40.5542 | TRACE | CACHE: Memory - 14839168 / 0
+2017-07-27 12:13:40.5682 | TRACE | CACHE: Items in cache: 6
+2017-07-27 12:13:40.5682 | TRACE | Members of [Product].[Category]: 5 loaded [4005 ms]
+2017-07-27 12:13:40.6182 | TRACE | Loading members...[Product].[Color] - 0
+2017-07-27 12:13:40.6182 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-07-27 12:13:43.3661 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-07-27 12:13:45.5979 | TRACE | Counting members ... [Product].[Color] - True
+2017-07-27 12:13:45.5979 | TRACE | Hierarachy: [Product].[Color]
+2017-07-27 12:13:45.5979 | TRACE | Search phrase: 
+2017-07-27 12:13:45.6239 | TRACE | Member: 
+2017-07-27 12:13:45.6469 | TRACE | with member [Measures].[CountAllMembers] as Count([Product].[Color].allmembers) select NON EMPTY {[Measures].[CountAllMembers]} ON columns FROM [Adventure Works]
+2017-07-27 12:13:46.1042 | TRACE | Count members of [Product].[Color]: 11 [499 ms]
+2017-07-27 12:13:46.1042 | TRACE | SELECT {} on 0, DISTINCT({[Product].[Color].allmembers}) DIMENSION PROPERTIES PARENT_UNIQUE_NAME, LEVEL_UNIQUE_NAME  on 1 FROM [Adventure Works]
+2017-07-27 12:13:47.2730 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverMembersArgs
+2017-07-27 12:13:47.2730 | TRACE | CACHE: Memory - 8765572 / 0
+2017-07-27 12:13:47.2930 | TRACE | CACHE: Items in cache: 7
+2017-07-27 12:13:47.3520 | TRACE | Members of [Product].[Color]: 11 loaded [3986 ms]
+2017-07-27 12:13:47.5622 | TRACE | Execute
+2017-07-27 12:13:47.5742 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-07-27 12:13:50.2730 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-07-27 12:13:51.5898 | TRACE | Counting rows ...
+2017-07-27 12:13:51.6209 | TRACE | with member [Measures].[CountMembers] as Count(Hierarchize({DrilldownLevel({[Product].[Category].[All Products]})})) Select NON EMPTY {[Measures].[CountMembers]} ON COLUMNS  FROM [Adventure Works] CELL PROPERTIES VALUE
+2017-07-27 12:13:52.0882 | TRACE | Total rows: 5 [467 ms]
+2017-07-27 12:13:52.0882 | TRACE | chunk: 0
+2017-07-27 12:13:52.1552 | TRACE | query: Select NON EMPTY {[Measures].[Customer Count], [Measures].[Reseller Average Sales Amount]} DIMENSION PROPERTIES PARENT_UNIQUE_NAME, HIERARCHY_UNIQUE_NAME, MEMBER_TYPE ON COLUMNS , NON EMPTY Subset(Hierarchize({DrilldownLevel({[Product].[Category].[All Products]})}), 0, 100) DIMENSION PROPERTIES PARENT_UNIQUE_NAME, HIERARCHY_UNIQUE_NAME, MEMBER_TYPE ON ROWS FROM [Adventure Works] CELL PROPERTIES VALUE
+2017-07-27 12:13:52.9067 | TRACE | duration: 2634
+2017-07-27 12:13:52.9267 | TRACE | Execute - set chunk size: 379 100 5
+2017-07-27 12:13:52.9417 | TRACE | Execute - OK! 10 cells [2634 ms]
+2017-07-27 12:13:53.3820 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.ExecuteArgs
+2017-07-27 12:13:53.4011 | TRACE | CACHE: Memory - 15501224 / 0
+2017-07-27 12:13:53.4241 | TRACE | CACHE: Items in cache: 8
+2017-07-27 12:13:53.4421 | TRACE | Execute end
+2017-07-27 12:13:53.4931 | TRACE | Execute
+2017-07-27 12:13:53.5271 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-07-27 12:13:56.3490 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-07-27 12:13:57.7509 | TRACE | chunk: 1
+2017-07-27 12:13:57.7680 | TRACE | query: Select NON EMPTY {[Measures].[Customer Count], [Measures].[Reseller Average Sales Amount]} DIMENSION PROPERTIES PARENT_UNIQUE_NAME, HIERARCHY_UNIQUE_NAME, MEMBER_TYPE ON COLUMNS , NON EMPTY Subset(Hierarchize({DrilldownLevel({[Product].[Category].[All Products]})}), 100, 379) DIMENSION PROPERTIES PARENT_UNIQUE_NAME, HIERARCHY_UNIQUE_NAME, MEMBER_TYPE ON ROWS FROM [Adventure Works] CELL PROPERTIES VALUE
+2017-07-27 12:13:58.3824 | TRACE | Execute - empty [2033 ms] 379
+2017-07-27 12:13:58.8507 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.ExecuteArgs
+2017-07-27 12:13:58.8737 | TRACE | CACHE: Memory - 6208692 / 0
+2017-07-27 12:13:58.9007 | TRACE | CACHE: Items in cache: 9
+2017-07-27 12:13:58.9227 | TRACE | Execute end
+2017-07-27 12:15:42.7486 | TRACE | Handshaking...2.32
+2017-07-27 12:15:42.8967 | TRACE | Loading dimensions...
+2017-07-27 12:15:42.9278 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2017-07-27 12:15:43.4551 | ERROR | Either the user, 'Ian-PC\Ian', does not have access to the 'Adventure Works DW Standard Edition' database, or the database does not exist.
+   at Microsoft.AnalysisServices.AdomdClient.AdomdConnection.XmlaClientProvider.Microsoft.AnalysisServices.AdomdClient.IDiscoverProvider.Discover(String requestType, IDictionary restrictions, DataTable table)
+   at Microsoft.AnalysisServices.AdomdClient.ObjectMetadataCache.PopulateSelf()
+   at Microsoft.AnalysisServices.AdomdClient.ObjectMetadataCache.Microsoft.AnalysisServices.AdomdClient.IObjectCache.Populate()
+   at Microsoft.AnalysisServices.AdomdClient.CacheBasedNotFilteredCollection.PopulateCollection()
+   at Microsoft.AnalysisServices.AdomdClient.CacheBasedCollection.FindObjectByName(String name, DataRow parentRow, String nameColumn)
+   at Microsoft.AnalysisServices.AdomdClient.CubeCollectionInternal.Find(String index)
+   at Microsoft.AnalysisServices.AdomdClient.CubeCollectionInternal.get_Item(String index)
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.GetSessionId(String catalog, String credentials, String cubeUniqueName, String customData, String localeIdentifier, String effectiveUserName)
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.DiscoverDimensions(DiscoverArgs args)
+2017-10-19 20:08:08.5260 | TRACE | Handshaking...2.326
+2017-10-19 20:08:08.6581 | TRACE | Loading dimensions...
+2017-10-19 20:08:08.6846 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2017-10-19 20:08:08.9793 | ERROR | Either the user, 'FM-Dima\Dima', does not have access to the 'Adventure Works DW Standard Edition' database, or the database does not exist.
+   at Microsoft.AnalysisServices.AdomdClient.AdomdConnection.XmlaClientProvider.Microsoft.AnalysisServices.AdomdClient.IDiscoverProvider.Discover(String requestType, IDictionary restrictions, DataTable table)
+   at Microsoft.AnalysisServices.AdomdClient.ObjectMetadataCache.PopulateSelf()
+   at Microsoft.AnalysisServices.AdomdClient.ObjectMetadataCache.Microsoft.AnalysisServices.AdomdClient.IObjectCache.Populate()
+   at Microsoft.AnalysisServices.AdomdClient.CacheBasedNotFilteredCollection.PopulateCollection()
+   at Microsoft.AnalysisServices.AdomdClient.CacheBasedCollection.FindObjectByName(String name, DataRow parentRow, String nameColumn)
+   at Microsoft.AnalysisServices.AdomdClient.CubeCollectionInternal.Find(String index)
+   at Microsoft.AnalysisServices.AdomdClient.CubeCollectionInternal.get_Item(String index)
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.GetSessionId(String catalog, String credentials, String cubeUniqueName, String customData, String localeIdentifier, String effectiveUserName)
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.DiscoverDimensions(DiscoverArgs args)
+2017-10-19 20:12:27.3233 | TRACE | Handshaking...2.326
+2017-10-19 20:12:27.5385 | TRACE | Loading dimensions...
+2017-10-19 20:12:27.5515 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2017-10-19 20:12:27.6055 | ERROR | Either the user, 'FM-Dima\Dima', does not have access to the 'Adventure Works DW Standard Edition' database, or the database does not exist.
+   at Microsoft.AnalysisServices.AdomdClient.AdomdConnection.XmlaClientProvider.Microsoft.AnalysisServices.AdomdClient.IDiscoverProvider.Discover(String requestType, IDictionary restrictions, DataTable table)
+   at Microsoft.AnalysisServices.AdomdClient.ObjectMetadataCache.PopulateSelf()
+   at Microsoft.AnalysisServices.AdomdClient.ObjectMetadataCache.Microsoft.AnalysisServices.AdomdClient.IObjectCache.Populate()
+   at Microsoft.AnalysisServices.AdomdClient.CacheBasedNotFilteredCollection.PopulateCollection()
+   at Microsoft.AnalysisServices.AdomdClient.CacheBasedCollection.FindObjectByName(String name, DataRow parentRow, String nameColumn)
+   at Microsoft.AnalysisServices.AdomdClient.CubeCollectionInternal.Find(String index)
+   at Microsoft.AnalysisServices.AdomdClient.CubeCollectionInternal.get_Item(String index)
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.GetSessionId(String catalog, String credentials, String cubeUniqueName, String customData, String localeIdentifier, String effectiveUserName)
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.DiscoverDimensions(DiscoverArgs args)
+2017-10-19 20:21:57.6223 | TRACE | Handshaking...2.326
+2017-10-19 20:21:57.6528 | TRACE | Loading dimensions...
+2017-10-19 20:21:57.6673 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2017-10-19 20:21:57.6873 | ERROR | Either the user, 'FM-Dima\Dima', does not have access to the 'Adventure Works DW Standard Edition' database, or the database does not exist.
+   at Microsoft.AnalysisServices.AdomdClient.AdomdConnection.XmlaClientProvider.Microsoft.AnalysisServices.AdomdClient.IDiscoverProvider.Discover(String requestType, IDictionary restrictions, DataTable table)
+   at Microsoft.AnalysisServices.AdomdClient.ObjectMetadataCache.PopulateSelf()
+   at Microsoft.AnalysisServices.AdomdClient.ObjectMetadataCache.Microsoft.AnalysisServices.AdomdClient.IObjectCache.Populate()
+   at Microsoft.AnalysisServices.AdomdClient.CacheBasedNotFilteredCollection.PopulateCollection()
+   at Microsoft.AnalysisServices.AdomdClient.CacheBasedCollection.FindObjectByName(String name, DataRow parentRow, String nameColumn)
+   at Microsoft.AnalysisServices.AdomdClient.CubeCollectionInternal.Find(String index)
+   at Microsoft.AnalysisServices.AdomdClient.CubeCollectionInternal.get_Item(String index)
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.GetSessionId(String catalog, String credentials, String cubeUniqueName, String customData, String localeIdentifier, String effectiveUserName)
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.DiscoverDimensions(DiscoverArgs args)
+2017-10-19 20:50:03.4811 | TRACE | Handshaking...2.326
+2017-10-19 20:50:03.7458 | TRACE | Loading dimensions...
+2017-10-19 20:50:42.8354 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2017-10-19 20:50:43.0815 | ERROR | Either the user, 'FM-Dima\Dima', does not have access to the 'Adventure Works DW Standard Edition' database, or the database does not exist.
+   at Microsoft.AnalysisServices.AdomdClient.AdomdConnection.XmlaClientProvider.Microsoft.AnalysisServices.AdomdClient.IDiscoverProvider.Discover(String requestType, IDictionary restrictions, DataTable table)
+   at Microsoft.AnalysisServices.AdomdClient.ObjectMetadataCache.PopulateSelf()
+   at Microsoft.AnalysisServices.AdomdClient.ObjectMetadataCache.Microsoft.AnalysisServices.AdomdClient.IObjectCache.Populate()
+   at Microsoft.AnalysisServices.AdomdClient.CacheBasedNotFilteredCollection.PopulateCollection()
+   at Microsoft.AnalysisServices.AdomdClient.CacheBasedCollection.FindObjectByName(String name, DataRow parentRow, String nameColumn)
+   at Microsoft.AnalysisServices.AdomdClient.CubeCollectionInternal.Find(String index)
+   at Microsoft.AnalysisServices.AdomdClient.CubeCollectionInternal.get_Item(String index)
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.GetSessionId(String catalog, String credentials, String cubeUniqueName, String customData, String localeIdentifier, String effectiveUserName)
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.DiscoverDimensions(DiscoverArgs args)
+2017-11-03 19:14:14.0865 | TRACE | Handshaking...2,326
+2017-11-03 19:14:14.3112 | TRACE | Loading dimensions...
+2017-11-03 19:14:14.3292 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2017-11-03 19:14:14.9096 | ERROR | Either the user, 'FM-Dima\Dima', does not have access to the 'Adventure Works DW Standard Edition' database, or the database does not exist.
+   at Microsoft.AnalysisServices.AdomdClient.AdomdConnection.XmlaClientProvider.Microsoft.AnalysisServices.AdomdClient.IDiscoverProvider.Discover(String requestType, IDictionary restrictions, DataTable table)
+   at Microsoft.AnalysisServices.AdomdClient.ObjectMetadataCache.PopulateSelf()
+   at Microsoft.AnalysisServices.AdomdClient.ObjectMetadataCache.Microsoft.AnalysisServices.AdomdClient.IObjectCache.Populate()
+   at Microsoft.AnalysisServices.AdomdClient.CacheBasedNotFilteredCollection.PopulateCollection()
+   at Microsoft.AnalysisServices.AdomdClient.CacheBasedCollection.FindObjectByName(String name, DataRow parentRow, String nameColumn)
+   at Microsoft.AnalysisServices.AdomdClient.CubeCollectionInternal.Find(String index)
+   at Microsoft.AnalysisServices.AdomdClient.CubeCollectionInternal.get_Item(String index)
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.GetSessionId(String catalog, String credentials, String cubeUniqueName, String customData, String localeIdentifier, String effectiveUserName)
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.DiscoverDimensions(DiscoverArgs args)
+2017-11-03 19:16:11.6395 | TRACE | Handshaking...2,326
+2017-11-03 19:16:11.8782 | TRACE | Loading dimensions...
+2017-11-03 20:12:05.6611 | TRACE | Handshaking...2,326
+2017-11-03 20:12:05.8322 | TRACE | Loading dimensions...
+2017-11-03 20:12:05.8322 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2017-11-03 20:12:06.0383 | ERROR | Either the user, 'FM-Dima\Dima', does not have access to the 'Adventure Works DW Standard Edition' database, or the database does not exist.
+   at Microsoft.AnalysisServices.AdomdClient.AdomdConnection.XmlaClientProvider.Microsoft.AnalysisServices.AdomdClient.IDiscoverProvider.Discover(String requestType, IDictionary restrictions, DataTable table)
+   at Microsoft.AnalysisServices.AdomdClient.ObjectMetadataCache.PopulateSelf()
+   at Microsoft.AnalysisServices.AdomdClient.ObjectMetadataCache.Microsoft.AnalysisServices.AdomdClient.IObjectCache.Populate()
+   at Microsoft.AnalysisServices.AdomdClient.CacheBasedNotFilteredCollection.PopulateCollection()
+   at Microsoft.AnalysisServices.AdomdClient.CacheBasedCollection.FindObjectByName(String name, DataRow parentRow, String nameColumn)
+   at Microsoft.AnalysisServices.AdomdClient.CubeCollectionInternal.Find(String index)
+   at Microsoft.AnalysisServices.AdomdClient.CubeCollectionInternal.get_Item(String index)
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.GetSessionId(String catalog, String credentials, String cubeUniqueName, String customData, String localeIdentifier, String effectiveUserName)
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.DiscoverDimensions(DiscoverArgs args)
+2017-11-03 20:19:10.3191 | TRACE | Handshaking...2,406
+2017-11-03 20:19:10.3191 | WARN | Your current version of Data Speed Accelerator is not compatible with Flexmonster Pivot Component.
+
+Please update the Accelerator to the minimum required version: 2,4
+2017-11-03 20:36:05.3617 | TRACE | Handshaking...2,406
+2017-11-03 20:36:05.4893 | TRACE | Loading dimensions...
+2017-11-03 20:36:05.5033 | TRACE | Connection string: Data Source=localhost;Catalog=Adventure Works DW Standard Edition;
+2017-11-03 20:36:05.7015 | ERROR | Either the user, 'FM-Dima\Dima', does not have access to the 'Adventure Works DW Standard Edition' database, or the database does not exist.
+   at Microsoft.AnalysisServices.AdomdClient.AdomdConnection.XmlaClientProvider.Microsoft.AnalysisServices.AdomdClient.IDiscoverProvider.Discover(String requestType, IDictionary restrictions, DataTable table)
+   at Microsoft.AnalysisServices.AdomdClient.ObjectMetadataCache.PopulateSelf()
+   at Microsoft.AnalysisServices.AdomdClient.ObjectMetadataCache.Microsoft.AnalysisServices.AdomdClient.IObjectCache.Populate()
+   at Microsoft.AnalysisServices.AdomdClient.CacheBasedNotFilteredCollection.PopulateCollection()
+   at Microsoft.AnalysisServices.AdomdClient.CacheBasedCollection.FindObjectByName(String name, DataRow parentRow, String nameColumn)
+   at Microsoft.AnalysisServices.AdomdClient.CubeCollectionInternal.Find(String index)
+   at Microsoft.AnalysisServices.AdomdClient.CubeCollectionInternal.get_Item(String index)
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.GetSessionId(String catalog, String credentials, String cubeUniqueName, String customData, String localeIdentifier, String effectiveUserName, String roles)
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.DiscoverDimensions(DiscoverArgs args)
+2017-11-03 20:37:00.6597 | TRACE | Handshaking...2,406
+2017-11-03 20:37:00.7483 | TRACE | Loading dimensions...
+2017-11-03 20:37:00.7618 | TRACE | Connection string: Catalog=Adventure Works DW Standard Edition;
+2017-11-03 20:37:00.7923 | ERROR | A data source must be specified in the connection string.
+   at Microsoft.AnalysisServices.AdomdClient.ConnectionInfo.SetConnectionString(String cs)
+   at Microsoft.AnalysisServices.AdomdClient.ConnectionInfo..ctor(String connectionString)
+   at Microsoft.AnalysisServices.AdomdClient.AdomdConnection.XmlaClientProvider.Microsoft.AnalysisServices.AdomdClient.AdomdConnection.IXmlaClientProviderEx.set_ConnectionString(String value)
+   at Microsoft.AnalysisServices.AdomdClient.AdomdConnection.set_ConnectionString(String value)
+   at Microsoft.AnalysisServices.AdomdClient.AdomdConnection..ctor(String connectionString)
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.CreateConnection(String catalog, String credentials, String customData, String localeIdentifier, String effectiveUserName, String roles)
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.GetSessionId(String catalog, String credentials, String cubeUniqueName, String customData, String localeIdentifier, String effectiveUserName, String roles)
+   at Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.DiscoverDimensions(DiscoverArgs args)
+2017-11-03 20:38:02.9013 | TRACE | Handshaking...2,406
+2017-11-03 20:38:03.0134 | TRACE | Loading dimensions...
+2017-11-03 20:38:03.0294 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-11-03 20:38:06.3221 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-11-03 20:38:09.6913 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2017-11-03 20:38:09.6913 | TRACE | CACHE: Memory - 33931124 / 0
+2017-11-03 20:38:09.7083 | TRACE | CACHE: Items in cache: 1
+2017-11-03 20:38:09.7083 | TRACE | Dimensions: 22 loaded [3398 ms]
+2017-11-03 20:38:09.7483 | TRACE | Loading hierarchies...
+2017-11-03 20:38:09.7574 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-11-03 20:38:13.9737 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2017-11-03 20:38:13.9737 | TRACE | CACHE: Memory - 38053996 / 0
+2017-11-03 20:38:13.9907 | TRACE | CACHE: Items in cache: 2
+2017-11-03 20:38:13.9907 | TRACE | Hierarchies: 172 loaded [4240 ms]
+2017-11-03 20:38:14.0417 | TRACE | Loading levels...
+2017-11-03 20:38:14.0522 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-11-03 20:38:19.4739 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2017-11-03 20:38:19.4884 | TRACE | CACHE: Memory - 8957548 / 0
+2017-11-03 20:38:19.4884 | TRACE | CACHE: Items in cache: 3
+2017-11-03 20:38:19.5049 | TRACE | Levels: 406 loaded [5453 ms]
+2017-11-03 20:38:19.8666 | TRACE | Loading measures...
+2017-11-03 20:38:21.9465 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-11-03 20:38:25.3438 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2017-11-03 20:38:25.3523 | TRACE | CACHE: Memory - 15652428 / 0
+2017-11-03 20:38:25.3523 | TRACE | CACHE: Items in cache: 4
+2017-11-03 20:38:25.3648 | TRACE | Measures: 51 loaded [5492 ms]
+2017-11-03 20:38:25.3823 | TRACE | Loading KPIs...
+2017-11-03 20:38:25.3823 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-11-03 20:38:28.7370 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverArgs
+2017-11-03 20:38:28.7430 | TRACE | CACHE: Memory - 18735660 / 0
+2017-11-03 20:38:28.7430 | TRACE | CACHE: Items in cache: 5
+2017-11-03 20:38:28.7566 | TRACE | KPIs: 12 loaded [3367 ms]
+2017-11-03 20:38:28.8281 | TRACE | Loading members...[Product].[Category] - 0
+2017-11-03 20:38:28.8351 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-11-03 20:38:31.7100 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-11-03 20:38:34.1061 | TRACE | Counting members ... [Product].[Category] - True
+2017-11-03 20:38:34.1126 | TRACE | Hierarachy: [Product].[Category]
+2017-11-03 20:38:34.1126 | TRACE | Search phrase: 
+2017-11-03 20:38:34.1306 | TRACE | Member: 
+2017-11-03 20:38:34.1306 | TRACE | with member [Measures].[CountAllMembers] as Count([Product].[Category].allmembers) select NON EMPTY {[Measures].[CountAllMembers]} ON columns FROM [Adventure Works]
+2017-11-03 20:38:34.6570 | TRACE | Count members of [Product].[Category]: 5 [545 ms]
+2017-11-03 20:38:34.6730 | TRACE | SELECT {} on 0, Subset(DISTINCT({[Product].[Category].allmembers}), 0, 15000) DIMENSION PROPERTIES PARENT_UNIQUE_NAME, LEVEL_UNIQUE_NAME  on 1 FROM [Adventure Works]
+2017-11-03 20:38:35.2024 | TRACE | Counting members ... [Product].[Category] - False
+2017-11-03 20:38:35.2124 | TRACE | Hierarachy: [Product].[Category]
+2017-11-03 20:38:35.2124 | TRACE | Search phrase: 
+2017-11-03 20:38:35.2309 | TRACE | Member: 
+2017-11-03 20:38:35.2399 | TRACE | with member [Measures].[CountMembers] as Count([Product].[Category].levels(1).allmembers) select  NON EMPTY {[Measures].[CountMembers]} ON columns FROM [Adventure Works]
+2017-11-03 20:38:35.7022 | TRACE | Count members of [Product].[Category]: 4 [491 ms]
+2017-11-03 20:38:36.1805 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverMembersArgs
+2017-11-03 20:38:36.1805 | TRACE | CACHE: Memory - 8625644 / 0
+2017-11-03 20:38:36.1935 | TRACE | CACHE: Items in cache: 6
+2017-11-03 20:38:36.2075 | TRACE | Members of [Product].[Category]: 5 loaded [4498 ms]
+2017-11-03 20:38:36.2601 | TRACE | Loading members...[Product].[Color] - 0
+2017-11-03 20:38:36.2601 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-11-03 20:38:39.1665 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-11-03 20:38:41.6091 | TRACE | Counting members ... [Product].[Color] - True
+2017-11-03 20:38:41.6151 | TRACE | Hierarachy: [Product].[Color]
+2017-11-03 20:38:41.6151 | TRACE | Search phrase: 
+2017-11-03 20:38:41.6286 | TRACE | Member: 
+2017-11-03 20:38:41.6286 | TRACE | with member [Measures].[CountAllMembers] as Count([Product].[Color].allmembers) select NON EMPTY {[Measures].[CountAllMembers]} ON columns FROM [Adventure Works]
+2017-11-03 20:38:42.1110 | TRACE | Count members of [Product].[Color]: 11 [496 ms]
+2017-11-03 20:38:42.1190 | TRACE | SELECT {} on 0, Subset(DISTINCT({[Product].[Color].allmembers}), 0, 15000) DIMENSION PROPERTIES PARENT_UNIQUE_NAME, LEVEL_UNIQUE_NAME  on 1 FROM [Adventure Works]
+2017-11-03 20:38:42.6153 | TRACE | Counting members ... [Product].[Color] - False
+2017-11-03 20:38:42.6153 | TRACE | Hierarachy: [Product].[Color]
+2017-11-03 20:38:42.6293 | TRACE | Search phrase: 
+2017-11-03 20:38:42.6293 | TRACE | Member: 
+2017-11-03 20:38:42.6443 | TRACE | with member [Measures].[CountMembers] as Count([Product].[Color].levels(1).allmembers) select  NON EMPTY {[Measures].[CountMembers]} ON columns FROM [Adventure Works]
+2017-11-03 20:38:43.1332 | TRACE | Count members of [Product].[Color]: 10 [510 ms]
+2017-11-03 20:38:43.6155 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.DiscoverMembersArgs
+2017-11-03 20:38:43.6155 | TRACE | CACHE: Memory - 16500276 / 0
+2017-11-03 20:38:43.6325 | TRACE | CACHE: Items in cache: 7
+2017-11-03 20:38:43.6325 | TRACE | Members of [Product].[Color]: 11 loaded [4474 ms]
+2017-11-03 20:38:43.6945 | TRACE | Execute
+2017-11-03 20:38:43.6945 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-11-03 20:38:46.5294 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-11-03 20:38:47.9549 | TRACE | Counting rows ...
+2017-11-03 20:38:47.9649 | TRACE | with member [Measures].[CountMembers] as Count(Hierarchize({DrilldownLevel({[Product].[Category].[All Products]})})) Select NON EMPTY {[Measures].[CountMembers]} ON COLUMNS  FROM [Adventure Works] CELL PROPERTIES VALUE
+2017-11-03 20:38:48.4402 | TRACE | Total rows: 5 [476 ms]
+2017-11-03 20:38:48.4502 | TRACE | chunk: 0
+2017-11-03 20:38:48.4592 | TRACE | query: Select NON EMPTY {[Measures].[Customer Count], [Measures].[Reseller Average Sales Amount]} DIMENSION PROPERTIES PARENT_UNIQUE_NAME, HIERARCHY_UNIQUE_NAME, MEMBER_TYPE ON COLUMNS , NON EMPTY Subset(Hierarchize({DrilldownLevel({[Product].[Category].[All Products]})}), 0, 100) DIMENSION PROPERTIES PARENT_UNIQUE_NAME, HIERARCHY_UNIQUE_NAME, MEMBER_TYPE ON ROWS FROM [Adventure Works] CELL PROPERTIES VALUE
+2017-11-03 20:38:49.0001 | TRACE | duration: 2471
+2017-11-03 20:38:49.0091 | TRACE | Execute - set chunk size: 404 100 5
+2017-11-03 20:38:49.0091 | TRACE | Execute - OK! 10 cells [2471 ms]
+2017-11-03 20:38:49.4929 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.ExecuteArgs
+2017-11-03 20:38:49.5059 | TRACE | CACHE: Memory - 9423976 / 0
+2017-11-03 20:38:49.5059 | TRACE | CACHE: Items in cache: 8
+2017-11-03 20:38:49.5289 | TRACE | Execute end
+2017-11-03 20:38:49.5489 | TRACE | Execute
+2017-11-03 20:38:49.5720 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-11-03 20:38:52.4174 | TRACE | Connection string: Data Source=http://olap.flexmonster.com/olap/msmdpump.dll;Catalog=Adventure Works DW Standard Edition;
+2017-11-03 20:38:53.8068 | TRACE | chunk: 1
+2017-11-03 20:38:53.8228 | TRACE | query: Select NON EMPTY {[Measures].[Customer Count], [Measures].[Reseller Average Sales Amount]} DIMENSION PROPERTIES PARENT_UNIQUE_NAME, HIERARCHY_UNIQUE_NAME, MEMBER_TYPE ON COLUMNS , NON EMPTY Subset(Hierarchize({DrilldownLevel({[Product].[Category].[All Products]})}), 100, 404) DIMENSION PROPERTIES PARENT_UNIQUE_NAME, HIERARCHY_UNIQUE_NAME, MEMBER_TYPE ON ROWS FROM [Adventure Works] CELL PROPERTIES VALUE
+2017-11-03 20:38:55.0946 | TRACE | Execute - empty [2677 ms] 404
+2017-11-03 20:38:55.5815 | TRACE | CACHE: Add - Flexmonster.Accelerator.Models.ExecuteArgs
+2017-11-03 20:38:55.5815 | TRACE | CACHE: Memory - 15315372 / 0
+2017-11-03 20:38:55.6100 | TRACE | CACHE: Items in cache: 9
+2017-11-03 20:38:55.6245 | TRACE | Execute end
