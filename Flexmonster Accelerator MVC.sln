@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flexmonster Accelerator MVC", "Flexmonster Accelerator MVC\Flexmonster Accelerator MVC.csproj", "{F13DA424-F00D-4FC3-BDA1-97DECCCFF33A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flexmonster Accelerator MVC", "Flexmonster Accelerator MVC\Flexmonster Accelerator MVC.csproj", "{D78F841E-9D9E-4148-B6C4-642396606425}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F13DA424-F00D-4FC3-BDA1-97DECCCFF33A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F13DA424-F00D-4FC3-BDA1-97DECCCFF33A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F13DA424-F00D-4FC3-BDA1-97DECCCFF33A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F13DA424-F00D-4FC3-BDA1-97DECCCFF33A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D78F841E-9D9E-4148-B6C4-642396606425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D78F841E-9D9E-4148-B6C4-642396606425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D78F841E-9D9E-4148-B6C4-642396606425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D78F841E-9D9E-4148-B6C4-642396606425}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D870DF34-93C0-4CA1-BDB6-A19132045CC0}
 	EndGlobalSection
 EndGlobal

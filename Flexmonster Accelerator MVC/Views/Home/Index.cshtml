@@ -1,26 +1,17 @@
 ﻿@{
-    ViewBag.Title = "Home";
-    Layout = null;
+    ViewBag.Title = "Home Page";
 }
 
-<!DOCTYPE html>
+<h2>Flexmonster Pivot Table Component</h2>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title></title>
-</head>
-<body>
-    <h2>Flexmonster Pivot Table Component</h2>
+<!-- 1. Create a DIV container to insert the component -->
+<div id="pivot-container" />
 
-    <!-- 1. Create a DIV container to insert the component -->
-    <div id="pivot-container" />
+<!-- 2. Include flexmonster.js file -->
+<script src="https://cdn.flexmonster.com/flexmonster.js"></script>
 
-    <!-- 2. Include flexmonster.js file -->
-    <script src="https://cdn.flexmonster.com/flexmonster.js"></script>
-
-    <!-- 3. Embed the component using flexmonster.embedPivotComponent() -->
-    <script type="text/javascript">
+<!-- 3. Embed the component using flexmonster.embedPivotComponent() -->
+<script type="text/javascript">
         new Flexmonster({
             container: "#pivot-container",
             componentFolder: "https://cdn.flexmonster.com/",
@@ -51,7 +42,4 @@
                 }
             }
         });
-    </script>
-</body>
-</html>
-
+</script>
