@@ -21,7 +21,7 @@
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
-    <IISExpressUseClassicPipelineMode />
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -45,8 +45,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Flexmonster.Accelerator.Core, Version=2.8.1.0, Culture=neutral, PublicKeyToken=7c70e3aa188faf11, processorArchitecture=MSIL">
-      <HintPath>..\packages\Flexmonster.Accelerator.2.8.1\lib\flexmonster\Flexmonster.Accelerator.Core.dll</HintPath>
+    <Reference Include="Flexmonster.Accelerator.Core, Version=2.8.3.0, Culture=neutral, PublicKeyToken=7c70e3aa188faf11, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Flexmonster.Accelerator.Core.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AnalysisServices, Version=18.2.3.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AnalysisServices.retail.amd64.18.2.3\lib\net45\Microsoft.AnalysisServices.dll</HintPath>
@@ -75,6 +76,7 @@
       <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.IdentityModel" />
@@ -96,6 +98,7 @@
     <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
     </Reference>
+    <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -144,6 +147,9 @@
     </Reference>
     <Reference Include="System.Web.Optimization">
       <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="Topshelf, Version=4.2.1.215, Culture=neutral, PublicKeyToken=b800c4cfcdeea87b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Topshelf.4.2.1\lib\net452\Topshelf.dll</HintPath>
     </Reference>
     <Reference Include="WebGrease">
       <Private>True</Private>

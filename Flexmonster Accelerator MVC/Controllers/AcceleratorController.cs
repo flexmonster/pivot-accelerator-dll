@@ -1,32 +1,21 @@
-﻿using Flexmonster_Accelerator_MVC.App_Start;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
+﻿using Flexmonster.Accelerator.Models;
 using System.Web.Http;
-using System.Web.Http.Controllers;
 
 namespace Flexmonster_Accelerator_MVC.Controllers
 {
-    [AuthAttribute]
+    [Authorize]
     public class AcceleratorController : Flexmonster.Accelerator.Controllers.FlexmonsterProxyController
     {
 
+        [HttpGet]
         public IHttpActionResult Test()
         {
-            return Ok("Test");
+            return Ok(User.Identity.Name);
         }
-    }
 
-    class AuthAttribute : AuthorizeAttribute
-    {
-
-        protected override bool IsAuthorized(HttpActionContext actionContext)
+        override public void OnRequest(BaseArgs args)
         {
-            AcceleratorController.AuthHelper = new WindowsAuthHelper(actionContext.RequestContext.Principal.Identity.Name.ToString().Replace("//", "\\"));
-            return true;
+            args.identity = User.Identity;
         }
-
     }
 }
