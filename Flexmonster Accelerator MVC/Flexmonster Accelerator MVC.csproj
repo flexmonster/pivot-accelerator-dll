@@ -45,9 +45,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Flexmonster.Accelerator.Core, Version=2.8.3.0, Culture=neutral, PublicKeyToken=7c70e3aa188faf11, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Flexmonster.Accelerator.Core.dll</HintPath>
+    <Reference Include="Flexmonster.Accelerator.Core, Version=2.8.4.0, Culture=neutral, PublicKeyToken=7c70e3aa188faf11, processorArchitecture=MSIL">
+      <HintPath>..\packages\Flexmonster.Accelerator.2.8.4\lib\flexmonster\Flexmonster.Accelerator.Core.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AnalysisServices, Version=18.2.3.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AnalysisServices.retail.amd64.18.2.3\lib\net45\Microsoft.AnalysisServices.dll</HintPath>
