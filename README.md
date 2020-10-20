@@ -1,4 +1,4 @@
-# Flexmonster Accelerator as a DLL
+# Use Flexmonster Accelerator as a DLL
 [![Flexmonster Pivot Table & Charts](https://cdn.flexmonster.com/landing.png)](http://flexmonster.com)
 Website: www.flexmonster.com
 
