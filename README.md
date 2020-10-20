@@ -18,7 +18,7 @@ The table of contents:
 
 ## Prerequisites
 
-To run a simple application with the Accelerator as a DLL, you will Microsoft .NET Framework 4.5.2 or higher. [Get it here](https://www.microsoft.com/en-us/download/details.aspx?id=56116) if it's not already installed on your machine.
+To run a simple application with the Accelerator as a DLL, you will need Microsoft .NET Framework 4.5.2 or higher. [Get it here](https://www.microsoft.com/en-us/download/details.aspx?id=56116) if it's not already installed on your machine.
 
 We also use Visual Studio 2019 as an IDE. If you do not have Visual Studio installed, [download it here](https://visualstudio.microsoft.com/vs/).
 
