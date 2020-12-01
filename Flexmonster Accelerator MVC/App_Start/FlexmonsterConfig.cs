@@ -11,7 +11,7 @@ namespace Flexmonster_Accelerator_MVC.App_Start
         {
             // Replace with actual data source. 
             // Example: Data Source=localhost
-            Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.ConnectionString = "Data Source=https://olap.flexmonster.com/olap/msmdpump.dll";
+            Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.ConnectionString = "Data Source=localhost";
             Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.AuthEnabled = true;
             Flexmonster.Accelerator.Controllers.FlexmonsterProxyController.Impersonator = new Flexmonster.Accelerator.Core.Utils.Impersonation.WindowsImpersonatorFactory();
             Flexmonster.Accelerator.Utils.CacheManager.MemoryLimit = 10 * 1024 * 1024; // Mb to bytes
