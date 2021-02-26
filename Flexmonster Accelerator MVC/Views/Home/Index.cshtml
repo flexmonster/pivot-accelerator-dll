@@ -19,11 +19,13 @@
             toolbar: true,
             report: {
                 dataSource: {
+                    // 4. Specify the required catalog & cube values in the data source
                     dataSourceType: "microsoft analysis services",
                     proxyUrl: "/api/accelerator/",
-                    catalog: "Adventure Works DW Standard Edition",
-                    cube: "Adventure Works",
+                    catalog: "",
+                    cube: "",
                     binary: true,
+                    withCredentials: true
                 },
                 slice: {
                     rows: [
