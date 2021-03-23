@@ -42,4 +42,4 @@ To see the result, open `http://localhost:55158/` in your browser.
 
 ## Usage
 
-For details on usage, refer to the [Referring the Accelerator as a DLL](https://www.flexmonster.com/doc/referring-accelerator-as-a-dll/) tutorial.
+For details on using Flexmonster Accelerator as a DLL in your project, refer to the [Referencing the Accelerator as a DLL](https://www.flexmonster.com/doc/referencing-accelerator-as-a-dll/) tutorial.
