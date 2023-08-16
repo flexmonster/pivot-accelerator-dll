@@ -8,7 +8,7 @@ Flexmonster Pivot is a powerful JavaScript tool for interactive web reporting. I
 
 This repository contains a sample project that demonstrates how to reference [Flexmonster Accelerator](https://www.flexmonster.com/doc/getting-started-with-accelerator-ssas?r=github) as a DLL.
 
-Flexmonster Accelerator is a special server-side proxy that makes big data transfer from the server to the customer's browser incredibly fast. It also greatly reduces the load on the browser memory.
+Flexmonster Accelerator is a server-side proxy that increases data loading speeds from the server to the user’s browser. It also greatly reduces the load on the browser memory.
 
 Table of contents:
 
