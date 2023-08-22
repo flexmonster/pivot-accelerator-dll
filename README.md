@@ -41,5 +41,4 @@ To see the result, open `http://localhost:55158/` in your browser.
 
 ## Related Flexmonster docs
 
-- [Getting started with Flexmonster Accelerator](https://www.flexmonster.com/doc/getting-started-with-accelerator-ssas?r=github) — see details on Flexmonster Accelerator usage as a Windows service.
 - [Referencing the Accelerator as a DLL](https://www.flexmonster.com/doc/referencing-accelerator-as-a-dll?r=github) — learn how to use Flexmonster Accelerator as a DLL in an existing project.
