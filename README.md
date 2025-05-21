@@ -12,7 +12,7 @@ The table of contents:
 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Related Flexmonster docs](#related-flexmonster-docs)
 
 ## Prerequisites
 
@@ -29,6 +29,6 @@ git clone -b windows-authentication https://github.com/flexmonster/pivot-acceler
 
 To run the sample project, see our documentation: [Run the sample project with Windows authentication](https://www.flexmonster.com/doc/configuring-authentication-process?target=accelerator-as-a-dll/#github-sample).
 
-## Usage
+## Related Flexmonster docs
 
-For more details on using the Accelerator as a DLL with Windows authentication, refer to the [Using Windows authentication](https://www.flexmonster.com/doc/configuring-authentication-process?target=accelerator-as-a-dll/#windows-auth) guide.
+- [Using Windows authentication](https://www.flexmonster.com/doc/configuring-authentication-process?target=accelerator-as-a-dll/#windows-auth) — learn more about using the Accelerator as a DLL with Windows authentication.
