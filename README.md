@@ -29,13 +29,8 @@ Table of contents:
 git clone https://github.com/flexmonster/pivot-accelerator-dll
 ```
 2. Open the project in Visual Studio using the `pivot-accelerator-dll/Flexmonster Accelerator MVC.sln` file.
-
-3. If needed, update the NuGet packages: 
-    - Right-click the project name in `Solution Explorer` and select the `Manage NuGet Packages` item in the context menu.
-    - Go to the `Updates` tab and choose `Select all packages`.
-    - Click the `Update` button.
   
-4. Run the sample project by clicking the `IIS Express` button on the toolbar.
+3. Run the project by selecting the `IIS Express` button on the toolbar.
 
 To see the result, open `http://localhost:55158/` in your browser.
 
