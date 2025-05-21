@@ -16,7 +16,7 @@ The table of contents:
 
 ## Prerequisites
 
-- Microsoft .NET Framework 4.8
+- [Microsoft .NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework)
 - [Visual Studio IDE](https://visualstudio.microsoft.com/vs/)
 
 ## Installation
